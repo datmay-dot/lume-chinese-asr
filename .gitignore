@@ -1,0 +1,35 @@
+# 环境变量（绝对不能上传）
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# 测试覆盖率
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 音频测试文件
+*.mp3
+*.wav
+*.pcm
+*.m4a
+
+# IDE
+.vscode/
+.idea/
+*.swp
